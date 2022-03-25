@@ -1,18 +1,43 @@
 import utilStyles from "../styles/utils.module.css";
+import Yourself from "./yourself";
+import Link from "next/link";
 
 const Introduction = () => {
   return (
     <section className={utilStyles.headingMd}>
-      <p>[Your Self Introduction]</p>
+      <Yourself />
       <article>
         <h1>
-          wingbirds are
-          <div className={utilStyles.friends}> friends you fly with</div>
+          Hi [if (profile) => username],
+          <div className={utilStyles.friends}> I'm Aang.</div>
         </h1>
         <p>
-          flying friends from around the world, <br />
-          one by one, escape from tutorial purgatory. <br />
-          理解万岁！千里马？我是白老师的学生。欢迎大家来到老百青云的网网络加油站，
+          This is my first hackathon,{" "}
+          <div className={utilStyles.friends}> what should I do first? </div>{" "}
+          <br />
+          <h2>
+            <Link href="/instructions">
+              <a>1. read teh instructions</a>
+            </Link>{" "}
+            <br />
+            <Link href="/start">
+              <a>2. start playing immediately</a>
+            </Link>{" "}
+            <br />
+            <Link href="/start">
+              <a>3. create a profile from scratch</a>
+            </Link>{" "}
+            <br />
+            <Link href="/len-frens">
+              <a>4. meet lifelong friends</a>
+            </Link>{" "}
+            <br />
+            <Link href="https://ethglobal.tv/">
+              <a>5. give up already</a>
+            </Link>{" "}
+            <br />
+          </h2>
+          <br />
           在这个世界里，谁能让您十分满意? <br /> Tippi Fifestarr.
           <br /> That's who. <br />
           <h2>

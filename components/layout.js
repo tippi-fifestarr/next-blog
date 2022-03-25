@@ -4,8 +4,8 @@ import styles from "./layout.module.css";
 import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
 
-const name = "Tippi Fifestarr: AI Guy?";
-export const siteTitle = "LFGrow R&D Next.js";
+const name = "Lens Frens: Enhance Your Next Event (Meet Aang & Mr. Robot)";
+export const siteTitle = "Meet Aang (LFGrow)";
 
 export default function Layout({ children, home }) {
   return (

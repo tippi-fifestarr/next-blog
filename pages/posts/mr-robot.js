@@ -3,6 +3,7 @@ import Head from "next/head";
 import Layout from "../../components/layout";
 import utilStyles from "../../styles/utils.module.css";
 import YourComponent from "../../components/hexaimage";
+import Yourself from "../../components/yourself";
 
 export default function FirstPost() {
   return (
@@ -10,7 +11,7 @@ export default function FirstPost() {
       <Head>
         <title>First Post</title>
       </Head>
-
+      <Yourself />
       <h1>First Post</h1>
       <YourComponent>text</YourComponent>
       <article>

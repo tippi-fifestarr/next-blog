@@ -14,9 +14,9 @@ export default function Home() {
 
       <footer>
         <h1 className="title">
-          Fly{" "}
-          <Link href="/posts/first-post">
-            <a>first post!</a>
+          Meet{" "}
+          <Link href="/posts/mr-robot">
+            <a>Mr. Robot!</a>
           </Link>
         </h1>
       </footer>
